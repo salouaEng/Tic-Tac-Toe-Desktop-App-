@@ -67,7 +67,7 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Tag = "empty";
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pictureBox2
             // 
@@ -82,7 +82,7 @@
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Tag = "empty";
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pictureBox3
             // 
@@ -97,7 +97,7 @@
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Tag = "empty";
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pictureBox4
             // 
@@ -112,7 +112,7 @@
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Tag = "empty";
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pictureBox5
             // 
@@ -127,7 +127,7 @@
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Tag = "empty";
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pictureBox6
             // 
@@ -142,7 +142,7 @@
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Tag = "empty";
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pictureBox7
             // 
@@ -157,7 +157,7 @@
             this.pictureBox7.TabIndex = 6;
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Tag = "empty";
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pictureBox8
             // 
@@ -172,7 +172,7 @@
             this.pictureBox8.TabIndex = 7;
             this.pictureBox8.TabStop = false;
             this.pictureBox8.Tag = "empty";
-            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pictureBox9
             // 
@@ -187,7 +187,7 @@
             this.pictureBox9.TabIndex = 8;
             this.pictureBox9.TabStop = false;
             this.pictureBox9.Tag = "empty";
-            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // label1
             // 
@@ -288,7 +288,6 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

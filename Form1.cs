@@ -163,45 +163,13 @@ namespace Tic_Tac_Toe
             e.Graphics.DrawLine(pen, 188, 48, 188, 390);
             e.Graphics.DrawLine(pen, 308, 48, 308, 390);
         }
+
+        private void pictureBox_Click(object sender, EventArgs e)
+        {
+            ChangeImage((PictureBox) sender);
+        }
+
        
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            ChangeImage(pictureBox1);
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            ChangeImage(pictureBox2);
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            ChangeImage(pictureBox3);
-        }
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-            ChangeImage(pictureBox6);
-        }
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            ChangeImage(pictureBox4);
-        }
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-            ChangeImage(pictureBox5);
-        }
-        private void pictureBox7_Click(object sender, EventArgs e)
-        {
-            ChangeImage(pictureBox7);
-        }
-        private void pictureBox8_Click(object sender, EventArgs e)
-        {
-            ChangeImage(pictureBox8);
-        }
-        private void pictureBox9_Click(object sender, EventArgs e)
-        {
-            ChangeImage(pictureBox9);
-        }
         private void RestButton(PictureBox btn)
         {
             btn.Image = Resources.QM;
@@ -231,9 +199,6 @@ namespace Tic_Tac_Toe
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }
